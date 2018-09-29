@@ -1,19 +1,14 @@
 <html>
-  <head>
-    <meta name="generator"
-    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <title>CPF/CNPJ</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />	
-	<script type="text/javascript" src="lib/jquery-1.9.0.min.js"></script>
-    <script type="text/javascript" src="common.js"></script>
-    <script type="text/javascript" src="cpf-cnpj.js"></script>
-    <script type="text/javascript" src="cc.js"></script>
-	<script type="text/javascript" src="cep.js"></script>
-	<script type="text/javascript" src="main.js"></script>	
-  </head>
-  <body>
-	<div id="top-bar"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="generator"
+	content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Inventor</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<div id="top-bar">
 		<ol>
 			<li>
 				<a>Inventor</a>
@@ -26,7 +21,7 @@
 	<div id="content">
 		<form id="dataForm" name="dataForm" >
 			<fieldset class="dataBox">
-				<legend>Dados pessoais</legend>			
+				<legend>Dados pessoais</legend>
 				<div>
 					<dl>
 						<dt>
@@ -36,7 +31,7 @@
 							<input type="text" id="cpf" name="cpf" maxlength="50" class="s-large" />
 						</dd>
 					</dl>
-				</div>	
+				</div>
 				<div>
 					<dl>
 						<dt>
@@ -46,10 +41,10 @@
 							<input type="text" id="cnpj" name="cnpj" maxlength="50" class="s-large" />
 						</dd>
 					</dl>
-				</div>		
+				</div>
 			</fieldset>
 			<fieldset class="dataBox">
-				<legend>Cartões</legend>
+				<legend>CartÃµes</legend>
 				<div>
 					<dl>
 						<dt>
@@ -59,7 +54,7 @@
 							<input type="text" id="visa" name="visa" maxlength="50" class="s-large" />
 						</dd>
 					</dl>
-				</div>	
+				</div>
 				<div>
 					<dl>
 						<dt>
@@ -69,7 +64,7 @@
 							<input type="text" id="master" name="master" maxlength="50" class="s-large" />
 						</dd>
 					</dl>
-				</div>	
+				</div>
 				<div>
 					<dl>
 						<dt>
@@ -79,8 +74,8 @@
 							<input type="text" id="amex" name="amex" maxlength="50" class="s-large" />
 						</dd>
 					</dl>
-				</div>	
-							<div>
+				</div>
+				<div>
 					<dl>
 						<dt>
 							<label for="diners">Diners</label>
@@ -89,10 +84,10 @@
 							<input type="text" id="diners" name="diners" maxlength="50" class="s-large" />
 						</dd>
 					</dl>
-				</div>	
-			</fieldset>		
+				</div>
+			</fieldset>
 			<fieldset class="dataBox">
-				<legend>Endereço</legend>
+				<legend>EndereÃ§o</legend>
 				<div>
 					<dl>
 						<dt>
@@ -112,7 +107,7 @@
 							<input type="text" id="cepMaisDeUmBairro" name="cepMaisDeUmBairro" maxlength="50" class="s-large" />
 						</dd>
 					</dl>
-				</div>		
+				</div>
 				<div>
 					<dl>
 						<dt>
@@ -122,20 +117,40 @@
 							<input type="text" id="cepCidade" name="cepCidade" maxlength="50" class="s-large" />
 						</dd>
 					</dl>
-				</div>					
+				</div>
+			</fieldset>
+			<fieldset class="dataBox">
+				<legend>VeÃ­culo</legend>
+				<div>
+					<dl>
+						<dt>
+							<label for="renavam">Renavam</label>
+						</dt>
+						<dd>
+							<input type="text" id="renavam" name="renavam" maxlength="50" class="s-large" />
+						</dd>
+					</dl>
+				</div>
 			</fieldset>
 			<fieldset class="dataBoxConfig">
-				<legend>Configurações</legend>
+				<legend>ConfiguraÃ§Ãµes</legend>
 				<div>
 					<dl>
 						<dt><input type="checkbox" id="separator" name="separator" /></dt>
 						<dd><label for="separator">Usar separadores</label></dd>
 						<dt><input type="checkbox" id="onlyEvenCPF" name="onlyEvenCPF" /></dt>
 						<dd><label for="onlyEvenCPF">Apenas CPF's e CPNJ's pares</label></dd>
-					</dl>			
-				</div>			
-			</fieldset>				
+					</dl>
+				</div>
+			</fieldset>
 		</form>
 	</div>
-  </body>
+	<script type="text/javascript" src="lib/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="common.js"></script>
+	<script type="text/javascript" src="renavam.js"></script>
+	<script type="text/javascript" src="cpf-cnpj.js"></script>
+	<script type="text/javascript" src="cc.js"></script>
+	<script type="text/javascript" src="cep.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
 </html>
